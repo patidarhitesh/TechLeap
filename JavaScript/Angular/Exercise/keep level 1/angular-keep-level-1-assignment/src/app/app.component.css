@@ -1,0 +1,26 @@
+.center {
+  width: 75%;
+  margin: 10px auto;
+}
+
+.add-note-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mat-expansion-panel {
+  border-radius: 8px;
+}
+
+.mat-input {
+  width: 100%;
+}
+
+.notes-section {
+  width: 50%;
+  margin-left: 25%;
+}
+
+mat-card {
+  border-radius: 8px;
+}

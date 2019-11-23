@@ -1,0 +1,74 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-danger static-top mb-3 ">
+  <div class="container">
+    <a class="navbar-brand " href="#"><h1>Movie Cruiser</h1></a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-md-6 text-center column_box">
+      <h2>Movies</h2>
+      <ul id="moviesList" *ngFor="let entry of data; let i = index">
+        <li #favCard>
+          <div class="box">
+            <div class="card text-white bg-dark">
+              <img src="{{ entry.poster }}" alt="" class="img-fluid" />
+              <div class="card-body text-centre">
+                <h4 class="card-title">{{ entry.name }}</h4>
+                <div>
+                  <button
+                    class="btn btn-danger"
+                    (click)="addFavourite(entry.name, entry.poster, i)"
+                  >
+                    Add to Favorites
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="col-12 col-md-6 text-center column_box">
+      <h2>Favourites</h2>
+      <ul id="favouritesList" *ngFor="let entry of fav; let i = index">
+        <div class="box">
+          <div class="card text-white bg-dark ">
+            <img src="{{ entry.poster }}" alt="" class="img-fluid" />
+            <div class="card-body text-left">
+              <h4 class="card-title">{{ entry.name }}</h4>
+              <div>
+                <button
+                  class="btn btn-danger"
+                  (click)="removeFavourite(entry.name,i)"
+                >
+                  Remove from Favorites
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </ul>
+    </div>
+  </div>
+</div>

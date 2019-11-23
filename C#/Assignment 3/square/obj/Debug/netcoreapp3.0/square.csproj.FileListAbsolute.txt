@@ -1,0 +1,11 @@
+C:\Users\Training\Desktop\Training\C#\Assignment 3\square\obj\Debug\netcoreapp3.0\square.csprojAssemblyReference.cache
+C:\Users\Training\Desktop\Training\C#\Assignment 3\square\obj\Debug\netcoreapp3.0\square.AssemblyInfoInputs.cache
+C:\Users\Training\Desktop\Training\C#\Assignment 3\square\obj\Debug\netcoreapp3.0\square.AssemblyInfo.cs
+C:\Users\Training\Desktop\Training\C#\Assignment 3\square\bin\Debug\netcoreapp3.0\square.exe
+C:\Users\Training\Desktop\Training\C#\Assignment 3\square\bin\Debug\netcoreapp3.0\square.deps.json
+C:\Users\Training\Desktop\Training\C#\Assignment 3\square\bin\Debug\netcoreapp3.0\square.runtimeconfig.json
+C:\Users\Training\Desktop\Training\C#\Assignment 3\square\bin\Debug\netcoreapp3.0\square.runtimeconfig.dev.json
+C:\Users\Training\Desktop\Training\C#\Assignment 3\square\bin\Debug\netcoreapp3.0\square.dll
+C:\Users\Training\Desktop\Training\C#\Assignment 3\square\bin\Debug\netcoreapp3.0\square.pdb
+C:\Users\Training\Desktop\Training\C#\Assignment 3\square\obj\Debug\netcoreapp3.0\square.dll
+C:\Users\Training\Desktop\Training\C#\Assignment 3\square\obj\Debug\netcoreapp3.0\square.pdb

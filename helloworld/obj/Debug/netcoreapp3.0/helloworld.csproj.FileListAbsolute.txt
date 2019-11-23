@@ -1,0 +1,17 @@
+D:\helloworld\bin\Debug\netcoreapp3.0\appsettings.Development.json
+D:\helloworld\bin\Debug\netcoreapp3.0\appsettings.json
+D:\helloworld\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
+D:\helloworld\bin\Debug\netcoreapp3.0\helloworld.exe
+D:\helloworld\bin\Debug\netcoreapp3.0\helloworld.deps.json
+D:\helloworld\bin\Debug\netcoreapp3.0\helloworld.runtimeconfig.json
+D:\helloworld\bin\Debug\netcoreapp3.0\helloworld.runtimeconfig.dev.json
+D:\helloworld\bin\Debug\netcoreapp3.0\helloworld.dll
+D:\helloworld\bin\Debug\netcoreapp3.0\helloworld.pdb
+D:\helloworld\obj\Debug\netcoreapp3.0\staticwebassets\helloworld.StaticWebAssets.Manifest.cache
+D:\helloworld\obj\Debug\netcoreapp3.0\staticwebassets\helloworld.StaticWebAssets.xml
+D:\helloworld\obj\Debug\netcoreapp3.0\helloworld.MvcApplicationPartsAssemblyInfo.cache
+D:\helloworld\obj\Debug\netcoreapp3.0\helloworld.AssemblyInfoInputs.cache
+D:\helloworld\obj\Debug\netcoreapp3.0\helloworld.AssemblyInfo.cs
+D:\helloworld\obj\Debug\netcoreapp3.0\helloworld.RazorTargetAssemblyInfo.cache
+D:\helloworld\obj\Debug\netcoreapp3.0\helloworld.dll
+D:\helloworld\obj\Debug\netcoreapp3.0\helloworld.pdb

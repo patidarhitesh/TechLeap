@@ -1,0 +1,32 @@
+<div class="checkout-card">
+        <mat-card-header>
+          <div mat-card-avatar class="checkout-header-image"></div>
+          <mat-card-title>Cart Total : $ {{ total }} </mat-card-title>
+        </mat-card-header>
+        <br />
+        <mat-card-content>
+          <button mat-raised-button (click)="checkout()">
+            <img id="cart" src="https://img.icons8.com/ios/64/000000/checkout.png" />
+            Checkout
+          </button></mat-card-content
+        >
+        <p></p>
+      </div>
+
+<table style="width:100%">
+    <tr>
+      <th>Name</th>
+      <th>Manufacturer</th>
+      <th>Price</th>
+    </tr>
+    <tr *ngFor="let item of products">
+      <td>{{ item.name }}</td>
+      <td>{{ item.manufacturer }}</td>
+      <td>{{ item.price }}</td>
+      <td>  <button mat-raised-button color="warn" (click)="removeproduct(item)" >
+            Remove
+          </button></td>
+    </tr>
+  
+  </table>
+  

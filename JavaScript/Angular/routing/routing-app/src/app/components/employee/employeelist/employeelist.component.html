@@ -1,0 +1,38 @@
+<div>
+  <a
+    [routerLink]="['/employees', { outlets: { 'details': 'create' } }]"
+    class="btn btn-link"
+    >Add New Employee</a
+  >
+</div>
+
+<table class="table table-striped table-bordered">
+  <thead>
+    <tr>
+      <th><div class="text-center">Id</div></th>
+      <th><div class="text-center">Name
+      </div></th>
+      <th></th>
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let emp of employees">
+      <td> <div class="text-center">{{ emp.id }}</div></td>
+      <td> <div class="text-center">{{ emp.name }}</div></td>
+      <td style="width: 160px">
+        <div class="text-center">
+        <a
+          [routerLink]="['/employees', { outlets: { 'details': [emp.id] } }]"
+          class="btn btn-info"
+          >Details</a
+        >
+     <span >  <h1>  </h1>  </span>
+        <button type="button" class="btn btn-danger" (click)="del(emp.id)">Remove</button>
+      </div>
+      </td>
+    
+    </tr>
+  </tbody>
+</table>
+

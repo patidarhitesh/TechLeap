@@ -1,0 +1,39 @@
+#container1{
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin: -10px;
+    height: 30px;
+    padding: 10px;
+    padding-inline-start: 130px;
+    padding-top: 20px;
+    position: fixed;
+    
+}
+
+#si{
+    padding-left: 50px;
+    padding-right: 1000px;
+    border: 0px;
+    margin-top: -10px;
+}
+
+.search{
+    width: 100%;
+    margin-left: -130px;
+    padding-inline-start: 130px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: -5px;
+    margin-top: 30px;
+    display: inline-block;
+ 
+}
+.search input{
+    border: 0px;
+}
+
+hr{
+    margin-left: -10px;
+    margin-right: -10px;
+}

@@ -1,0 +1,8 @@
+<div class="example-container">
+  <mat-form-field>
+    <input matInput placeholder="Enter your Task here..." #task/>
+  </mat-form-field>
+</div>
+<div>
+  <button mat-raised-button color="primary" (click)="addTask(task.value,i)" >Add</button>
+</div>

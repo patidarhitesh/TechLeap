@@ -1,0 +1,55 @@
+{
+  "Employees": [
+    {
+      "id": 103,
+      "name": "Kamles",
+      "location": "Bhopal",
+      "technology": "Spring"
+    },
+    {
+      "id": 104,
+      "name": "Rohit",
+      "location": "Kanpur",
+      "technology": ".NET"
+    },
+    {
+      "name": "rames",
+      "location": "Baroda",
+      "technology": "C#",
+      "id": 105
+    },
+    {
+      "name": "Ram",
+      "location": "Indore",
+      "technology": "C",
+      "id": 110
+    },
+    {
+      "name": "Raj",
+      "location": "Assam",
+      "technology": "Python",
+      "id": 111
+    },
+    {
+      "name": "Harsh",
+      "location": "Gwalior",
+      "technology": ".NET",
+      "id": 112
+    },
+    {
+      "name": "Hriday",
+      "location": "Kolkata",
+      "technology": "Mongo",
+      "id": 113
+    }
+  ],
+  "users": [
+    {
+      "fname": "Hitesh",
+      "lname": "Patidar",
+      "email": "patidarh57@gmail.com",
+      "password": "qwerty",
+      "id": 1
+    }
+  ]
+}

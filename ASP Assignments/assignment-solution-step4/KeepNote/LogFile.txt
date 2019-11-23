@@ -1,0 +1,222 @@
+ Controller:Category
+ Action:Get
+ Time: 10/21/2019 10:04:28 AM
+ Process Duration 00:00:00.0152766
+
+
+ Controller:Category
+ Action:Post
+ Time: 10/21/2019 10:04:28 AM
+ Process Duration 00:00:00.0005341
+
+
+ Controller:Category
+ Action:Get
+ Time: 10/21/2019 10:04:28 AM
+ Process Duration 00:00:00.0040467
+
+
+ Controller:Category
+ Action:Put
+ Time: 10/21/2019 10:04:28 AM
+ Process Duration 00:00:00.0009525
+
+
+ Controller:Category
+ Action:Delete
+ Time: 10/21/2019 10:04:28 AM
+ Process Duration 00:00:00.0010637
+
+
+ Controller:Category
+ Action:Get
+ Time: 10/21/2019 10:04:28 AM
+ Process Duration 00:00:00.0009089
+
+
+ Controller:Category
+ Action:Put
+ Time: 10/21/2019 10:04:29 AM
+ Process Duration 00:00:00.0008913
+
+
+ Controller:Category
+ Action:Delete
+ Time: 10/21/2019 10:04:29 AM
+ Process Duration 00:00:00.0007411
+
+
+ Controller:Note
+ Action:Get
+ Time: 10/21/2019 10:04:29 AM
+ Process Duration 00:00:00.0038546
+
+
+ Controller:Note
+ Action:Post
+ Time: 10/21/2019 10:04:29 AM
+ Process Duration 00:00:00.0048665
+
+
+ Controller:Note
+ Action:Get
+ Time: 10/21/2019 10:04:29 AM
+ Process Duration 00:00:00.0041991
+
+
+ Controller:Note
+ Action:Put
+ Time: 10/21/2019 10:04:29 AM
+ Process Duration 00:00:00.0018696
+
+
+ Controller:Note
+ Action:Delete
+ Time: 10/21/2019 10:04:29 AM
+ Process Duration 00:00:00.0008809
+
+
+ Controller:Note
+ Action:Get
+ Time: 10/21/2019 10:04:29 AM
+ Process Duration 00:00:00.0005991
+
+
+ Controller:Note
+ Action:Post
+ Time: 10/21/2019 10:04:29 AM
+ Process Duration 00:00:00.0011360
+
+
+ Controller:Note
+ Action:Post
+ Time: 10/21/2019 10:04:29 AM
+ Process Duration 00:00:00.0010691
+
+
+ Controller:Note
+ Action:Put
+ Time: 10/21/2019 10:04:29 AM
+ Process Duration 00:00:00.0015448
+
+
+ Controller:Note
+ Action:Put
+ Time: 10/21/2019 10:04:29 AM
+ Process Duration 00:00:00.0013853
+
+
+ Controller:Note
+ Action:Put
+ Time: 10/21/2019 10:04:29 AM
+ Process Duration 00:00:00.0016296
+
+
+ Controller:Reminder
+ Action:Get
+ Time: 10/21/2019 10:04:29 AM
+ Process Duration 00:00:00.0033197
+
+
+ Controller:Reminder
+ Action:Post
+ Time: 10/21/2019 10:04:29 AM
+ Process Duration 00:00:00.0005357
+
+
+ Controller:Reminder
+ Action:Get
+ Time: 10/21/2019 10:04:29 AM
+ Process Duration 00:00:00.0007240
+
+
+ Controller:Reminder
+ Action:Put
+ Time: 10/21/2019 10:04:29 AM
+ Process Duration 00:00:00.0010448
+
+
+ Controller:Reminder
+ Action:Delete
+ Time: 10/21/2019 10:04:29 AM
+ Process Duration 00:00:00.0011839
+
+
+ Controller:Reminder
+ Action:Get
+ Time: 10/21/2019 10:04:29 AM
+ Process Duration 00:00:00.0010864
+
+
+ Controller:Reminder
+ Action:Put
+ Time: 10/21/2019 10:04:29 AM
+ Process Duration 00:00:00.0008349
+
+
+ Controller:Reminder
+ Action:Delete
+ Time: 10/21/2019 10:04:29 AM
+ Process Duration 00:00:00.0008552
+
+
+ Controller:User
+ Action:Get
+ Time: 10/21/2019 10:04:29 AM
+ Process Duration 00:00:00.0080189
+
+
+ Controller:User
+ Action:Post
+ Time: 10/21/2019 10:04:29 AM
+ Process Duration 00:00:00.0013319
+
+
+ Controller:User
+ Action:Login
+ Time: 10/21/2019 10:04:29 AM
+ Process Duration 00:00:00.0031948
+
+
+ Controller:User
+ Action:Put
+ Time: 10/21/2019 10:04:29 AM
+ Process Duration 00:00:00.0009258
+
+
+ Controller:User
+ Action:Delete
+ Time: 10/21/2019 10:04:29 AM
+ Process Duration 00:00:00.0013948
+
+
+ Controller:User
+ Action:Get
+ Time: 10/21/2019 10:04:29 AM
+ Process Duration 00:00:00.0007904
+
+
+ Controller:User
+ Action:Post
+ Time: 10/21/2019 10:04:29 AM
+ Process Duration 00:00:00.0008680
+
+
+ Controller:User
+ Action:Login
+ Time: 10/21/2019 10:04:29 AM
+ Process Duration 00:00:00.0004560
+
+
+ Controller:User
+ Action:Put
+ Time: 10/21/2019 10:04:29 AM
+ Process Duration 00:00:00.0008830
+
+
+ Controller:User
+ Action:Delete
+ Time: 10/21/2019 10:04:29 AM
+ Process Duration 00:00:00.0008208
+
+

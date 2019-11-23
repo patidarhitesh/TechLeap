@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <script>
+      src = "https://code.jquery.com/jquery-3.4.1.min.js";
+      integrity = "sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=";
+      crossorigin = "anonymous";
+    </script>
+    <script>
+      $(function() {
+        $("#fadein").click(function() {
+          $("#theDiv").fadeIn("normal");
+        });
+        $("#fadeout").click(function() {
+          $("#theDiv").fadeOut("normal");
+        });
+        $("#fadeto3").click(function() {
+          $("#theDiv").fadeIn("slow", 0.3);
+        });
+        $("#fadeup").click(function() {
+          $("#theDiv").fadeTo("slow", 0.3);
+        });
+      });
+
+      var a = 10;
+    </script>
+  </head>
+  <body>
+    <div
+      id="theDiv"
+      style="width: 80px; height :80px; display : none; background-color:red "
+    ></div>
+    <a href="#" id="fadein">fadeIn</a>
+    <a href="#" id="fadeout">fadeOut</a>
+    <a href="#" id="fadeto3">fadeto3</a>
+    <a href="#" id="fadeup">fadeUp</a>
+  </body>
+</html>

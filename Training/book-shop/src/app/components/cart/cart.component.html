@@ -1,0 +1,53 @@
+<div class="checkout-card">
+  <mat-card-header>
+    <div mat-card-avatar class="checkout-header-image"></div>
+    <mat-card-title>Cart Total : $ {{ total }} </mat-card-title>
+  </mat-card-header>
+  <br />
+  <mat-card-content>
+    <button mat-raised-button (click)="checkout()">
+      <img id="cart" src="https://img.icons8.com/ios/64/000000/checkout.png" />
+      Checkout
+    </button></mat-card-content
+  >
+  <p></p>
+</div>
+
+<mat-grid-list cols="3" rowHeight="1:1">
+  <mat-grid-tile *ngFor="let item of books"
+    ><mat-card class="example-card">
+      <mat-card-header>
+        <div mat-card-avatar class="example-header-image"></div>
+        <mat-card-title>{{ item.title }}</mat-card-title>
+        <mat-card-subtitle>$ {{ item.price }}</mat-card-subtitle>
+      </mat-card-header>
+
+      <mat-card-content
+        ><span class="mat-subheading-2">Author </span>:
+        {{ item.author }}</mat-card-content
+      >
+      <mat-card-content
+        ><span class="mat-subheading-2">Category </span>:
+        {{ item.category }}</mat-card-content
+      >
+      <mat-card-content
+        ><span class="mat-subheading-2">Published on </span>:
+        {{ item.publishingDate | date: 'dd-MMM-yyyy' }}</mat-card-content
+      >
+      <mat-card-content
+        ><span class="mat-subheading-2">Quantity Available </span>:
+        {{ item.quantityAvailable }}</mat-card-content
+      >
+
+      <mat-card-actions>
+        <button mat-raised-button (click)="removeBook(item)">
+          <img
+            id="cart"
+            src="https://img.icons8.com/wired/64/000000/filled-trash.png"
+          />
+          Remove from Cart
+        </button>
+      </mat-card-actions>
+    </mat-card>
+  </mat-grid-tile>
+</mat-grid-list>

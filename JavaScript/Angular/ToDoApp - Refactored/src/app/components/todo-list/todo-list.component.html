@@ -1,0 +1,38 @@
+<table class="table table-dark table-striped table-bordered shadow">
+    <thead>
+      <tr>
+        <th></th>
+        <th>Task</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let task of tasks; let i = index">
+        <td>{{ i + 1 }}</td>
+        <td>{{ task.action }}</td>
+        <td [ngSwitch]="task.done">
+          <span *ngSwitchCase="true">
+            Yes
+          </span>
+          <span *ngSwitchCase="false">
+            No
+          </span>
+          <p *ngSwitchDefault></p>
+        </td>
+        <td
+          [ngStyle]="{
+            'background-color': task.done ? 'darkslategrey' : 'darkred'
+          }"
+        >
+          <input
+            type="checkbox"
+            name=""
+            id=""
+            class="form-control"
+            [(ngModel)]="task.done"
+            (change)='update()'
+          />
+        </td>
+      </tr>
+    </tbody>
+  </table>

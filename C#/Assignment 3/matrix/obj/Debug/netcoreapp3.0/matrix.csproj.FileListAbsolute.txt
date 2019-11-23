@@ -1,0 +1,11 @@
+C:\Users\Training\Desktop\Training\C#\Assignment 3\matrix\bin\Debug\netcoreapp3.0\matrix.exe
+C:\Users\Training\Desktop\Training\C#\Assignment 3\matrix\bin\Debug\netcoreapp3.0\matrix.deps.json
+C:\Users\Training\Desktop\Training\C#\Assignment 3\matrix\bin\Debug\netcoreapp3.0\matrix.runtimeconfig.json
+C:\Users\Training\Desktop\Training\C#\Assignment 3\matrix\bin\Debug\netcoreapp3.0\matrix.runtimeconfig.dev.json
+C:\Users\Training\Desktop\Training\C#\Assignment 3\matrix\bin\Debug\netcoreapp3.0\matrix.dll
+C:\Users\Training\Desktop\Training\C#\Assignment 3\matrix\bin\Debug\netcoreapp3.0\matrix.pdb
+C:\Users\Training\Desktop\Training\C#\Assignment 3\matrix\obj\Debug\netcoreapp3.0\matrix.csprojAssemblyReference.cache
+C:\Users\Training\Desktop\Training\C#\Assignment 3\matrix\obj\Debug\netcoreapp3.0\matrix.AssemblyInfoInputs.cache
+C:\Users\Training\Desktop\Training\C#\Assignment 3\matrix\obj\Debug\netcoreapp3.0\matrix.AssemblyInfo.cs
+C:\Users\Training\Desktop\Training\C#\Assignment 3\matrix\obj\Debug\netcoreapp3.0\matrix.dll
+C:\Users\Training\Desktop\Training\C#\Assignment 3\matrix\obj\Debug\netcoreapp3.0\matrix.pdb

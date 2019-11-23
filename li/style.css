@@ -1,0 +1,45 @@
+body{
+    margin:0;
+    font-family: 'Manjari', sans-serif;
+}
+header{
+    background-color: orangered;
+}
+/* for imidiate use header > h1{}
+for all inside h1 elements use header h1{}*/
+
+header > h1{
+    
+    display: inline;
+}
+nav{
+    display: inline-block;
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    display: inline-block;
+    padding: 10PX;
+}
+ul li:hover{
+    background-color: darkgray;
+
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+p{
+    font-size: 2em;
+}
+
+table{
+    border: 2px solid orangered;
+    width: 100vh;
+   
+} 
+td,th{
+    border: 2px dotted orangered;
+    padding: 5px;
+}

@@ -1,0 +1,18 @@
+<h3 class="bg-danger text-left p-3 pl-5 shadow">
+  <!-- To-Do List for {{ num|number: '10.0-2' }} -->
+  To-Do List for {{ getUserName()|uppercase }}
+  
+</h3>
+<h4 class="bg-warning text-center p-1">You have total {{pendingTasks}} Pending</h4>
+<div class="container">
+  <div class="mb-3">
+    <form>
+      <input type="text" #taskname />
+      <button class="btn btn-dark m-3" (click)="addTask(taskname.value)">
+        Add Task
+      </button>
+    </form>
+  </div>
+<app-todo-list [tasks]="data" (updatePendingTasks)="updateNumber($event)"></app-todo-list>
+  <!-- <input type="text" [(ngModel)]="name" />{{ name }} -->
+</div>

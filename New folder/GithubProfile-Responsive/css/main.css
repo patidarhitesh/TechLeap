@@ -1,0 +1,434 @@
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+header{
+    background-color: black;
+    color: azure;
+    font-size: 11pt;
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 98%;
+    padding-bottom: 15px;
+    height: 40px;
+    padding-top: 0px;
+}
+.nav1{
+    float: left;
+    margin-right: 50px;
+}
+.nav2{
+    margin-left:400px;
+    float: right;
+}
+ul{
+    list-style-type: none;
+    display: inline;
+}
+ul li{
+    display: inline-block;
+    padding-left: 10PX;
+}
+input{
+    border: 0px;
+    border-radius: 2px;
+    background-color: rgb(63, 63, 65);
+    height: 25px;;
+    padding-left: 5px;
+    margin-left: 10px;
+    padding-right: 100px;
+}
+#r{
+    float: right;
+}
+
+#logo{
+    width: 30px; margin: -10px;
+}
+
+ .dropbtn {
+    font-weight: bold;
+ background-color: black;
+    cursor: pointer;
+    border: 0px;
+    color: azure;
+  }
+  
+ 
+ .dropdown {
+    position: relative;
+    display: flex;
+    
+  }
+  
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+  }
+  
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+ .pic{
+     margin: 20px;
+     display: flex;
+     width: 97vw;
+
+ }
+ .pic img{
+     width: 250px;
+
+ }
+ .pic button{
+     height: 30px;
+     background-color: green;
+     border: 0px;
+     border-radius: 3px;
+     margin: 10px;
+     padding: 5px;
+     font-size: 10pt;
+     width: 80px;
+     color: white;
+     margin-left: 30px;
+ }
+ .pic p{
+     margin: 10px;
+    font-size: 10pt;
+     height: 30px;
+     color: rgb(111, 140, 202);
+     margin-top: 15px;
+     
+ }
+ .pic h3{
+    margin-top:15px;
+    padding-left: 30px;
+ }
+ #edit{
+    padding: 5px;
+    border-radius: 4px;
+    border: 2px solid rgb(192, 210, 248);
+    background-color: rgb(233, 237, 245);
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    margin-left: 50px;
+    padding-right: 30px;
+ }
+
+ .tabs{
+     margin-left: 280px;
+     margin-top: -250px;
+ }
+ .tabs hr{
+     margin-left: 50px;
+     margin-right: 20px;
+     margin-top: 20px;
+ }
+ .tabs li{
+     color: rgb(129, 129, 129);
+     padding-left: 20px;
+     
+ }
+ .tabs li:hover{
+     cursor: pointer;
+     color: black
+ }
+ .name{
+     margin-top: 30px;
+     margin-left: 20px;
+     font-size: 18px;
+ }
+ .name button{
+     margin-top: 20px;
+     width: 250px;
+     border: 1px solid rgb(189, 189, 189);
+     border-radius: 3px;
+     padding: 5px;
+ }
+ .pop{
+    margin-left:330px;
+    margin-top: 0px;
+    font-size: 10pt;
+  }
+ .flex-container {
+     margin-left: 330px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+  .repo{
+      border: 1px solid  rgb(161, 161, 161);
+      padding-right: 300px;
+      width: 150px;
+      padding-bottom: 70px;
+      border-radius: 4px;
+      margin-right: 30px;
+      color: blue;
+      font-size: 10pt;
+      padding-left: 10px;
+      padding-top: 10px;
+  }
+  
+  footer{
+      margin-top: 40px;
+      margin-left: 200px;
+  }
+
+  footer hr{
+
+      width :75vw;
+  }
+  footer li{
+      
+      font-size: 8pt;
+      color: rgb(75, 144, 223);
+  }
+
+
+
+  /*Smaller device*/
+  @media (max-width: 576px){
+  
+    header{
+        background-color: black;
+        color: azure;
+        font-size: 9pt;
+    }
+    
+    
+    
+    nav{
+        display: flex;
+         justify-content: space-between; 
+        flex-direction: column;
+        width: 100vw;
+        /* padding-bottom: 15px; */
+        height: 35vh;
+    }
+    /* .nav1{ */
+        /* float: left; */
+        /* margin-right: 50px; */
+    /* } */
+    #logo{
+       margin-bottom: 00px;
+       
+    }
+    .nav2{
+        /* margin-left:400px; */
+        float: left;
+        margin-left: -10px;
+    }
+    ul{
+        list-style-type: none;
+        /* display: inline; */
+    }
+    ul li{
+        display: block;
+        /* padding-bottom: 10PX; */
+        margin-top: 10px;
+    }
+    input{
+        border: 0px;
+        border-radius: 2px;
+        background-color: rgb(63, 63, 65);
+        height: 25px;;
+        padding-left: 5px;
+        margin-left: 0px;
+        padding-right: 100px;
+    }
+   
+    
+    
+     .dropbtn {
+        font-weight: bold;
+     background-color: black;
+        cursor: pointer;
+        border: 0px;
+        color: azure;
+        margin-left: 0;
+      }
+      
+     
+     .dropdown {
+        position: relative;
+        display: flex;
+        
+      }
+      
+    
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+      }
+      
+    
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+    
+      .dropdown-content a:hover {background-color: #f1f1f1}
+      
+    
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+    
+     .pic{
+         margin: 20px;
+         display: flex;
+         flex-direction: column;
+         width: 100%;;
+    
+     }
+     .pic img{
+         width: 90vw;
+    
+     }
+     .pic button{
+         height: 30px;
+         background-color: green;
+         border: 0px;
+         border-radius: 3px;
+         margin: 10px;
+         padding: 5px;
+         font-size: 10pt;
+         width: 80px;
+         color: white;
+         margin-left: 30px;
+     }
+     .pic p{
+         margin: 10px;
+        font-size: 10pt;
+         height: 30px;
+         color: rgb(111, 140, 202);
+         margin-top: 15px;
+         
+     }
+     .pic h3{
+        margin-top:15px;
+        padding-left: 30px;
+     }
+     #edit{
+        display: none;
+        /* padding 5px;
+        border-radiu: 4px;
+        border: 2px solid rgb(192 210, 248);
+        background-color: rgb(233, 237, 245);
+        height: 50px;
+        display: flex;
+        justify-conent: space-around;
+        margin: 10px;
+        margin-left: 50px;
+        padding-right: 30px; */
+     }
+    
+     .tabs{
+         margin-left: 0px;
+         margin-top: 0px;
+     }
+     .tabs hr{
+         margin-left: 20px;
+         margin-right: 20px;
+         margin-top: 0px;
+     }
+     .tabs li{
+         color: rgb(129, 129, 129);
+         padding-left: 20px;
+     }
+     .tabs li:hover{
+         cursor: pointer;
+         color: black
+     }
+     .name{
+         margin-top: 0px;
+         /* margin-left: 20px; */
+         font-size: 18px;
+         text-align: center;
+     }
+     .name button{
+         /* margin-top: 20px; */
+         width: 70vw;
+         border: 1px solid rgb(189, 189, 189);
+         border-radius: 3px;
+         padding: 5px;
+         margin-left: -10px;
+     }
+     .pop{
+        margin-left:20px;
+        margin-top: 0px;
+        font-size: 10pt;
+        padding-bottom: 10px;
+        padding-top: 10px;
+      }
+     .flex-container {
+         margin-left: 20px;
+        display: flex;
+        padding-bottom: 0px;
+        width: 0vw;
+        flex-direction: column;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+      .repo{
+          border: 1px solid  rgb(161, 161, 161);
+          padding-right: 0px;
+          width: 85vw;
+          padding-bottom: 50px;
+          border-radius: 4px;
+          margin-bottom: 30px;
+          color: blue;
+          font-size: 10pt;
+          padding-left: 10px;
+          padding-top: 10px;
+      }
+      
+      footer{
+          margin-top: 40px;
+          margin-left: 0px;
+      }
+    
+      footer hr{
+    
+          width :75vw;
+      }
+      footer li{
+          
+          font-size: 8pt;
+          color: rgb(75, 144, 223);
+      }
+    
+    }

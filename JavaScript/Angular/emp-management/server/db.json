@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "fname": "raj",
+      "lname": "Patidar",
+      "email": "raJ@gmail.com",
+      "password": "qwerty",
+      "admin": false,
+      "id": 1
+    },
+    {
+      "fname": "q",
+      "lname": "w",
+      "email": "q@gmail.com",
+      "password": "qwerty",
+      "admin": false,
+      "id": 2
+    },
+    {
+      "fname": "Hitesh",
+      "lname": "Patidar",
+      "email": "patidarh57@gmail.com",
+      "password": "qwerty",
+      "admin": true,
+      "id": 3
+    },
+    {
+      "fname": "Shreya",
+      "lname": "Bajpai",
+      "email": "Shreya@gmail.com",
+      "password": "qwerty",
+      "admin": false,
+      "id": 4
+    }
+  ]
+}

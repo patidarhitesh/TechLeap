@@ -1,0 +1,34 @@
+<label class="error-message">{{ submitMessage }}</label>
+<div class="login-container">
+  <mat-card>
+    <div class="login-wrapper">
+      <mat-form-field>
+        <input
+          matInput
+          class="username"
+          name="username"
+          placeholder="Enter your User Name"
+          [formControl]="username"
+          required
+        />
+      </mat-form-field>
+      <mat-form-field>
+        <input
+          matInput
+          class="password"
+          name="password"
+          placeholder="Enter your password"
+          type="password"
+          [formControl]="password"
+          required
+        />
+      </mat-form-field>
+      <a [routerLink]="[ '/productlist' ]"><button mat-raised-button color="#fbbc05" (click)="loginSubmit()">
+        Submit
+      </button></a>
+      <div>
+        New User? <a routerLink="/register"> Register Here</a>
+      </div>
+    </div>
+  </mat-card>
+</div>

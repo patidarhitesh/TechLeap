@@ -1,0 +1,51 @@
+<h3 class="bg-danger text-left p-3 pl-5 shadow">
+  To-Do List for {{ getUserName() }}
+</h3>
+<div class="container">
+  <div class="mb-3">
+    <form>
+      <input type="text" #taskname />
+      <button class="btn btn-dark m-3" (click)="addTask(taskname.value)">
+        Add Task
+      </button>
+    </form>
+  </div>
+  <table class="table table-dark table-striped table-bordered shadow">
+    <thead>
+      <tr>
+        <th></th>
+        <th>Task</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let task of data; let i = index">
+        <td>{{ i + 1 }}</td>
+        <td>{{ task.action }}</td>
+        <td [ngSwitch]="task.done">
+          <span *ngSwitchCase="true">
+            Yes
+          </span>
+          <span *ngSwitchCase="false">
+            No
+          </span>
+          <p *ngSwitchDefault></p>
+        </td>
+        <td
+          [ngStyle]="{
+            'background-color': task.done ? 'darkslategrey' : 'darkred'
+          }"
+        >
+          <input
+            type="checkbox"
+            name=""
+            id=""
+            class="form-control"
+            [(ngModel)]="task.done"
+          />
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <!-- <input type="text" [(ngModel)]="name" />{{ name }} -->
+</div>

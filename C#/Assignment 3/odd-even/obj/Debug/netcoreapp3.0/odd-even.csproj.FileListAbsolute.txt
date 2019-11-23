@@ -1,0 +1,11 @@
+C:\Users\Training\Desktop\Training\C#\Assignment 3\odd-even\bin\Debug\netcoreapp3.0\odd-even.exe
+C:\Users\Training\Desktop\Training\C#\Assignment 3\odd-even\bin\Debug\netcoreapp3.0\odd-even.deps.json
+C:\Users\Training\Desktop\Training\C#\Assignment 3\odd-even\bin\Debug\netcoreapp3.0\odd-even.runtimeconfig.json
+C:\Users\Training\Desktop\Training\C#\Assignment 3\odd-even\bin\Debug\netcoreapp3.0\odd-even.runtimeconfig.dev.json
+C:\Users\Training\Desktop\Training\C#\Assignment 3\odd-even\bin\Debug\netcoreapp3.0\odd-even.dll
+C:\Users\Training\Desktop\Training\C#\Assignment 3\odd-even\bin\Debug\netcoreapp3.0\odd-even.pdb
+C:\Users\Training\Desktop\Training\C#\Assignment 3\odd-even\obj\Debug\netcoreapp3.0\odd-even.csprojAssemblyReference.cache
+C:\Users\Training\Desktop\Training\C#\Assignment 3\odd-even\obj\Debug\netcoreapp3.0\odd-even.AssemblyInfoInputs.cache
+C:\Users\Training\Desktop\Training\C#\Assignment 3\odd-even\obj\Debug\netcoreapp3.0\odd-even.AssemblyInfo.cs
+C:\Users\Training\Desktop\Training\C#\Assignment 3\odd-even\obj\Debug\netcoreapp3.0\odd-even.dll
+C:\Users\Training\Desktop\Training\C#\Assignment 3\odd-even\obj\Debug\netcoreapp3.0\odd-even.pdb

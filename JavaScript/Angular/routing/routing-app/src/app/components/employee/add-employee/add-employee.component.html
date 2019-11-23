@@ -1,0 +1,44 @@
+<form #addform="ngForm" (ngSubmit)="add(addform)">
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputName">Name</label>
+      <input
+        type="text"
+        class="form-control"
+        id="inputENAme"
+        placeholder="Name"
+        
+        name="txtname"
+        ngModel
+      />
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="inputAddress">Location</label>
+    <input
+      type="text"
+      class="form-control"
+      id="inputAddress"
+      placeholder="123 plae ground stret"
+   
+      name="location"
+      ngModel
+    />
+  </div>
+  <div class="form-group">
+    <label for="inputTech">Technology</label>
+    <input
+      type="text"
+      class="form-control"
+      id="inputTech"
+      placeholder="teknologi"
+ 
+      name="tech"
+      ngModel
+    />
+  </div>
+
+
+  <button class="btn btn-success" >Save</button>
+</form>

@@ -1,0 +1,79 @@
+<mat-form-field class="example-form-field">
+  <input matInput type="text" placeholder="Search" #sea (keyup)="search(sea.value.toUpperCase() )">
+</mat-form-field>
+
+<!-- <mat-form-field>
+  <mat-label>Author</mat-label>
+  <mat-select [(value)]="selected">
+    <mat-option [value]="none" (click)="noFilter()">None</mat-option>
+    <mat-option *ngFor="let item of dataCopy" [value]=" item.author" (click)="filterAuthor(item.author)">
+      {{ item.author }}</mat-option
+    >
+  </mat-select>
+</mat-form-field>
+ <mat-form-field>
+  <mat-label>Price</mat-label>
+  <mat-select [(value)]="selected2">
+    <mat-option>None</mat-option>
+    <mat-option *ngFor="let item of dataCopy" (click)="sortLH()" value="option1">Low to High</mat-option>
+    <mat-option *ngFor="let item of dataCopy" (click)="sortHL()" value="option2">High to Low</mat-option>
+  </mat-select>
+</mat-form-field> -->
+<!--<mat-form-field>
+  <mat-label>Category</mat-label>
+  <mat-select [(value)]="selected3">
+    <mat-option>None</mat-option>
+    <mat-option value="option1" *ngFor="let item of data">{{
+      item.category
+    }}</mat-option>
+  </mat-select>
+</mat-form-field>
+<mat-form-field>
+  <mat-label>Title</mat-label>
+  <mat-select [(value)]="selected4">
+    <mat-option>None</mat-option>
+    <mat-option value="option1">Option 1</mat-option>
+    <mat-option value="option2">Option 2</mat-option>
+    <mat-option value="option3">Option 3</mat-option>
+  </mat-select>
+</mat-form-field> -->
+
+
+<mat-grid-list cols="4" rowHeight="3:4">
+  <mat-grid-tile *ngFor="let item of data"
+    ><mat-card class="example-card">
+      <mat-card-header>
+        <div mat-card-avatar class="example-header-image"></div>
+        <mat-card-title>{{ item.title }}</mat-card-title>
+        <mat-card-subtitle>$ {{ item.price }}</mat-card-subtitle>
+      </mat-card-header>
+
+      <mat-card-content
+        ><span class="mat-subheading-2">Author </span>:
+        {{ item.author }}</mat-card-content
+      >
+      <mat-card-content
+        ><span class="mat-subheading-2">Category </span>:
+        {{ item.category }}</mat-card-content
+      >
+      <mat-card-content
+        ><span class="mat-subheading-2">Published on </span>:
+        {{ item.publishingDate | date: 'dd-MMM-yyyy' }}</mat-card-content
+      >
+      <mat-card-content
+        ><span class="mat-subheading-2">Quantity Available </span>:
+        {{ item.quantityAvailable }}</mat-card-content
+      >
+
+      <mat-card-actions>
+        <button mat-raised-button (click)="addBook(item)">
+          <img
+            id="cart"
+            src="https://img.icons8.com/ios/50/000000/add-shopping-cart.png"
+          />
+          Add To Cart
+        </button>
+      </mat-card-actions>
+    </mat-card>
+  </mat-grid-tile>
+</mat-grid-list>

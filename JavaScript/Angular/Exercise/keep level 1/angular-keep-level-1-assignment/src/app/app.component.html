@@ -1,0 +1,54 @@
+<app-header></app-header>
+
+<label class="error-message" style="color: white">{{ errMessage }}</label>
+
+<div class="add-note-section">
+  <mat-accordion class="example-headers-align">
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Take a note
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+
+      <mat-form-field class="mat-input">
+        <input
+          matInput
+          placeholder="Title"
+          name="title"
+          [(ngModel)]="note.title"
+        />
+      </mat-form-field>
+
+      <mat-form-field class="mat-input">
+        <textarea
+          matInput
+          placeholder="Text"
+          name="text"
+          [(ngModel)]="note.text"
+        ></textarea>
+      </mat-form-field>
+
+      <div class="mat-input">
+        <button mat-raised-button color="accent" (click)="addNote()">
+          Done
+        </button>
+      </div>
+    </mat-expansion-panel>
+  </mat-accordion>
+</div>
+
+<div class="notes-section" *ngIf="noteList && noteList.length">
+ 
+  <mat-grid-list cols="4" rowHeight="3:4">
+    <mat-grid-tile  *ngFor="let note of noteList">
+      <mat-card>
+        <mat-card-title>{{ note.title }}</mat-card-title>
+        <mat-card-content
+          ><p>{{ note.text }}</p></mat-card-content
+        >
+      </mat-card>
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>
+

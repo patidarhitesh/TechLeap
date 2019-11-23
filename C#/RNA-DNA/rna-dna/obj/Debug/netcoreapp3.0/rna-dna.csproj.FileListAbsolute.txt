@@ -1,0 +1,11 @@
+C:\Users\Training\Desktop\Training\C#\RNA-DNA\rna-dna\obj\Debug\netcoreapp3.0\rna-dna.csprojAssemblyReference.cache
+C:\Users\Training\Desktop\Training\C#\RNA-DNA\rna-dna\obj\Debug\netcoreapp3.0\rna-dna.AssemblyInfoInputs.cache
+C:\Users\Training\Desktop\Training\C#\RNA-DNA\rna-dna\obj\Debug\netcoreapp3.0\rna-dna.AssemblyInfo.cs
+C:\Users\Training\Desktop\Training\C#\RNA-DNA\rna-dna\bin\Debug\netcoreapp3.0\rna-dna.exe
+C:\Users\Training\Desktop\Training\C#\RNA-DNA\rna-dna\bin\Debug\netcoreapp3.0\rna-dna.deps.json
+C:\Users\Training\Desktop\Training\C#\RNA-DNA\rna-dna\bin\Debug\netcoreapp3.0\rna-dna.runtimeconfig.json
+C:\Users\Training\Desktop\Training\C#\RNA-DNA\rna-dna\bin\Debug\netcoreapp3.0\rna-dna.runtimeconfig.dev.json
+C:\Users\Training\Desktop\Training\C#\RNA-DNA\rna-dna\bin\Debug\netcoreapp3.0\rna-dna.dll
+C:\Users\Training\Desktop\Training\C#\RNA-DNA\rna-dna\bin\Debug\netcoreapp3.0\rna-dna.pdb
+C:\Users\Training\Desktop\Training\C#\RNA-DNA\rna-dna\obj\Debug\netcoreapp3.0\rna-dna.dll
+C:\Users\Training\Desktop\Training\C#\RNA-DNA\rna-dna\obj\Debug\netcoreapp3.0\rna-dna.pdb

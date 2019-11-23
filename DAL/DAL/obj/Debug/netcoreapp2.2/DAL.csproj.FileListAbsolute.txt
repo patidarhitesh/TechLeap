@@ -1,0 +1,8 @@
+D:\DAL\DAL\bin\Debug\netcoreapp2.2\DAL.deps.json
+D:\DAL\DAL\bin\Debug\netcoreapp2.2\DAL.dll
+D:\DAL\DAL\bin\Debug\netcoreapp2.2\DAL.pdb
+D:\DAL\DAL\obj\Debug\netcoreapp2.2\DAL.csprojAssemblyReference.cache
+D:\DAL\DAL\obj\Debug\netcoreapp2.2\DAL.AssemblyInfoInputs.cache
+D:\DAL\DAL\obj\Debug\netcoreapp2.2\DAL.AssemblyInfo.cs
+D:\DAL\DAL\obj\Debug\netcoreapp2.2\DAL.dll
+D:\DAL\DAL\obj\Debug\netcoreapp2.2\DAL.pdb

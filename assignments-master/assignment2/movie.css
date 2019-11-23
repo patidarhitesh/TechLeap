@@ -1,0 +1,19 @@
+#container1{
+  background-color: black;
+  color: white;
+  width:100%;
+  margin: -10px;
+  height: 30px;
+  padding: 10px;
+  padding-inline-start: 130px;
+  padding-top: 20px;
+}
+
+#container2{
+  height:90px;
+  padding-top: 80px;
+}
+
+#search{
+  
+}

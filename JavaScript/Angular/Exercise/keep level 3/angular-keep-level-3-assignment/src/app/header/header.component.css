@@ -1,0 +1,10 @@
+.keep-c-toggle-view {
+  width: 100%;
+  margin-left: 93%;
+  cursor: pointer;
+  /* background-color: #2f4f4f */
+}
+.mat-toolbar {
+background-color: #fbbc05;
+color: white
+}

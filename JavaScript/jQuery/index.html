@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <script>
+      src = "https://code.jquery.com/jquery-3.4.1.min.js";
+      integrity = "sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=";
+      crossorigin = "anonymous";
+    </script>
+    <style>
+      .chk {
+        background-color: red;
+      }
+      .unchk {
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      id="theDiv"
+      style="width: 80px; height :80px; display : none; background-color:red "
+    ></div>
+    <a href="#" id="fadein">fadeIn</a>
+    <a href="#" id="fadeout">fadeOut</a>
+    <a href="#" id="fadeto3">fadeto3</a>
+    <a href="#" id="fadeup">fadeUp</a>
+
+    <ul>
+      <li>
+        noodles
+      </li>
+    </ul>
+
+    <div>
+      <input type="checkbox" name="a" />
+      <span>Analyst</span>
+    </div>
+    <div>
+      <input type="checkbox" name="b" />
+      <span>Programmer</span>
+    </div>
+    <div>
+      <input type="checkbox" name="c" />
+      <span>Developer</span>
+    </div>
+
+    <button id="but1">click to hide para</button>
+    <button id="but2">click to show para</button>
+    <p>I am the PARA</p>
+
+    <script>
+      // $(function() {
+      //   $("#fadein").click(function() {
+      //     $("#theDiv").fadeIn("normal");
+      //   });
+      //   $("#fadeout").click(function() {
+      //     $("#theDiv").fadeOut("normal");
+      //   });
+      //   $("#fadeto3").click(function() {
+      //     $("#theDiv").fadeIn("slow", 0.3);
+      //   });
+      //   $("#fadeup").click(function() {
+      //     $("#theDiv").fadeTo("slow", 0.3);
+      //   });
+      // });
+      //
+      // $(() => {
+      //   $("li").hover(
+      //     function() {
+      //       $(this).append("<span>Hey!!! Welcome.</span>");
+      //     },
+      //     function() {
+      //       $(this)
+      //         .find("span:last")
+      //         .remove();
+      //     }
+      //   );
+      // });'
+      //
+      // $("input:not(:checked) + span").addClass("unchk");
+      // $(":checkbox").change(() => {
+      //   $(":checkbox + span")
+      //     .removeClass("unchk")
+      //     .addClass("chk");
+      //   $("input:not(:checked) + span")
+      //     .removeClass("chk")
+      //     .addClass("unchk");
+      // });
+      //
+      $(() => {
+        $("#but2").hide();
+        $("#but1").click(function() {
+          $("p").hide();
+          $("#but1").hide("slow");
+          $("#but2").show("slow");
+        });
+
+        $("#but2").click(function() {
+          $("p").show();
+          $("#but2").hide("slow");
+          $("#but1").show("slow");
+        });
+      });
+    </script>
+  </body>
+</html>

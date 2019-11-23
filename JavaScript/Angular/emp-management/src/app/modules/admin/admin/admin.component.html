@@ -1,0 +1,34 @@
+<table class="table table-striped table-bordered">
+  <thead>
+    <tr>
+      <th><div class="text-center">First Name</div></th>
+      <th><div class="text-center">Last Name</div></th>
+      <th><div class="text-center">Email</div></th>
+   
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let emp of employees">
+      <td>
+        <div class="text-center">{{ emp.fname }}</div>
+      </td>
+      <td>
+        <div class="text-center">{{ emp.lname }}</div>
+      </td>
+      <td>
+        <div class="text-center">{{ emp.email }}</div>
+      </td>
+
+    
+      <td style="width: 160px">
+        <div class="text-center">
+          <span> <h1></h1> </span>
+          <button type="button" class="btn btn-danger" (click)="del(emp.id)">
+            Remove
+          </button>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>

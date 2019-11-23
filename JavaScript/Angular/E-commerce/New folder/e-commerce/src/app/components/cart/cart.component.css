@@ -1,0 +1,62 @@
+table, td, th {  
+   
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  table {
+    border-collapse: collapse;
+
+    
+    width: 50%;
+  }
+  
+  th, td {
+    padding: 15px;
+  }
+  
+
+.example-card {
+    max-width: 400px;
+  }
+  
+  .example-header-image {
+    background-image: url('https://img.icons8.com/wired/64/000000/book.png');
+    background-size: cover;
+  }
+  .checkout-header-image{
+    background-image: url("https://img.icons8.com/wired/64/000000/bill.png");
+    background-size: cover;
+  }
+  .checkout-card{
+      margin: 20px;
+  }
+  .mat-card{
+     
+      margin: 20px;
+      /* background-color: #424242;
+      color: white; */
+      
+  }
+  #cart {
+      width: 20px;
+  }
+  .example-container {
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+  }
+  
+  .example-sidenav-content {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .example-sidenav {
+    padding: 20px;
+  }
+  h3{
+      margin-top: 50px;
+  }

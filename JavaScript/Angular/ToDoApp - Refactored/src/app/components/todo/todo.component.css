@@ -1,0 +1,6 @@
+.done {
+  background-color: darkslategrey;
+}
+.not-done {
+  background-color: darkred;
+}

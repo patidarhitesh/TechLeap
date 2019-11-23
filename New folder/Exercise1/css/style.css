@@ -1,0 +1,70 @@
+#header {
+
+background-color : #eee;
+height : 35px;
+margin : -10px;
+padding-top: 30px;
+padding-left: 30px;
+font-size : 30px;
+padding-bottom: 30px;
+font-family : "arial" 
+
+}
+
+#page{
+background-image : url("../images/Untitled.png");
+height: 1000px;
+margin:-10px;
+background-attachment: fixed;
+}
+
+#name{
+color: white;
+text-align: center;
+padding-top: 150px;
+padding-bottom: 30px;
+font-family : "arial" 
+}
+
+#image{
+background-image: url("../images/img.png");
+background-size: 100% 100%;
+height: 100px;
+width : 100px;
+margin: auto;
+
+}
+
+#bio{
+color: white;
+text-align: center;
+padding-top: 30px;
+padding-bottom: 30px;
+font-family : "arial" 
+}
+#linked{
+margin:auto;
+width: 150px;
+}
+
+button {
+margin:auto;
+background-color: transparent;
+height: 40px;
+border-radius: 10px;
+border: 2px solid white;
+color: white;
+padding-left: 30px;
+padding-right: 30px;
+}
+
+a{
+color: white;}
+
+#bg2{
+margin:0px;
+margin-top: 100px;
+background-size: 100% 100%;
+background-image : url("../images/bg2.png");
+height: 500px;
+}

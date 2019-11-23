@@ -1,0 +1,31 @@
+image: mcr.microsoft.com/dotnet/core/sdk:2.2
+
+stages: 
+  - compile
+  - test
+  - publish
+
+compile: 
+  stage: compile
+  script: 
+    - 'dotnet restore'
+    - 'dotnet build'
+  tags:
+    - 'gitlab-nht-runner'
+
+test: 
+  stage: test
+  script: 
+    - 'dotnet test ./test/Test.csproj'
+  tags:
+    - 'gitlab-nht-runner'
+
+publish:
+  stage: publish
+  script:
+    - 'dotnet publish ./KeepNote/KeepNote.csproj -c Release'
+  tags:
+    - 'gitlab-nht-runner'
+  artifacts:
+    paths: 
+      - '/builds/Hitesh.Patidar/keepnote-step4-boilerplate/KeepNote/bin/Release/netcoreapp2.2/publish/'

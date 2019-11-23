@@ -1,0 +1,11 @@
+.class1{
+    color: royalblue;
+    font-size: 1.5em;
+    border: 2px solid olivedrab;
+}
+
+.class2{
+    color: teal;
+    font-size: 1.7em;
+    border: 2px dotted chocolate;
+}

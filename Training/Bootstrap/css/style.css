@@ -1,0 +1,59 @@
+body {
+    background: url('https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg') no-repeat center fixed;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .navbar{
+    background-color: white;
+  }
+.jumbotron{
+  background-color: white;
+}
+@media(max-width : 560px){
+  .jumbotron h2{
+    font-size: 2em !important;
+  }
+  .jumbotron p{
+    font-size: .8em !important;
+  }
+}
+
+.carousel-caption{
+  
+ font-size: 2em;
+}
+.carousel-caption h1{
+  font-size: 5em;
+}
+.carousel-caption p{
+  font-size: .7em;
+}
+i,a{
+  color: darkslategrey;
+}
+
+a:hover{
+  color: darkslategrey;
+}
+footer{
+  background-color: white;
+}
+
+/* @media(max-width:360){
+  .caption{
+    width: 20vw;
+  }
+} */
+
+
+
+.s{
+  background-color: white;
+  color: coral;
+  border: none;
+  font-size: 2em;
+  
+}
+
+.F{
+  width:5px;
+}

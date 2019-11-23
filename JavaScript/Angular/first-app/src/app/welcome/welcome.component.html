@@ -1,0 +1,41 @@
+<h3 [hidden]="!hidden">{{ course }}</h3>
+
+<ul>
+  <li *ngFor="let city of cities" [value]="color">
+    {{ city }}
+  </li>
+</ul>
+  <table>
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>City</th>
+      </tr>
+    </thead>
+    <tbody>
+      <div *ngFor="let st of students">
+        <tr *ngIf="st.Gender == 'Male'">
+          <td>{{ st.Id }}</td>
+          <td>{{ st.name }}</td>
+          <td>{{ st.city }}</td>
+        </tr>
+      </div>
+    </tbody>
+  </table>
+
+  <div *ngFor="let st of students">
+    <div [ngSwitch]="st.city">
+      <div *ngSwitchCase="'Jaipur'" class="bg-primary">Hello {{ st.name }}</div>
+      <div *ngSwitchCase="'Patiala'" class="bg-success">Hello {{ st.name }}</div>
+      <div *ngSwitchDefault class="bg-warning">Hi {{ st.name }}</div>
+    </div>
+  </div>
+
+
+  <div *ngFor="let st of students">
+    <div [ngClass]="'class1'">
+      {{st.name}} {{st.city}}
+    </div>
+
+  </div>

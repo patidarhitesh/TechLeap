@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        function populateDiv(){
+            let targetDiv = document.getElementById("d1");
+            targetDiv.innerHTML = "<i> Italic text added using scripting </i>";
+        }
+        
+        
+        function addParagraph(){
+            let d2 = document.getElementById("d2");
+            let para = document.createElement("p");
+            para.setAttribute("id", "p3");
+            para.innerText = "Example paragraph added at runtime";
+            d2.appendChild(para);
+        }
+        
+        function accessParagraph(){
+            let text = document.getElementById('p3').innerText;
+            console.log(`paragraph text is ${text}`);
+        }
+
+        function readText(){
+            let input = document.getElementById("name").value;
+            console.log("Name is "+input);
+        }
+    </script>  
+</head>
+
+<body>
+    <h1> Example of using script</h1>
+    <div id="d1"></div>
+    <button onclick="populateDiv()">Click to get italic text</button>
+    <button onclick="addParagraph()">Click to get paragraph</button>
+    
+    <button onclick="accessParagraph()">Click to read paragraph</button>
+    <div id="d2"></div>
+
+    <input type="text" id="name">
+    <button onclick="readText()"> Get Name</button>
+    
+</body>
+</html>
